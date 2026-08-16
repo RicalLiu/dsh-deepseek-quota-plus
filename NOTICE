@@ -1,5 +1,5 @@
 dsh-deepseek-quota-plus
-Copyright (c) 2025 RicalLiu
+Copyright (c) 2026 RicalLiu
 
 This product includes software developed by third parties, licensed under
 the MIT License. The MIT License text is included in the LICENSE file.
@@ -10,7 +10,7 @@ respective authors, as permitted by the MIT License.
 --------------------------------------------------------------------
 1. dsh-deepseek-quota
    https://github.com/yingjunnan/dsh-deepseek-quota
-   Copyright (c) yingjunnan
+   Copyright (c) 2026 yingjunnan
    License: MIT
 
    The host-half balance widget, session-cost replay logic and
@@ -20,7 +20,7 @@ respective authors, as permitted by the MIT License.
 
 2. dsh-web-billing
    https://github.com/bpc-oss/dsh-web-billing
-   Copyright (c) bpc-oss
+   Copyright (c) 2026 dsh-web-billing contributors
    License: MIT
 
    The official DeepSeek pricing engine (policy timeline + peak/off-peak
@@ -28,7 +28,7 @@ respective authors, as permitted by the MIT License.
 
 3. dsh-balance-plugin
    https://github.com/Francis-Xavier-code/dsh-balance-plugin
-   Copyright (c) Francis-Xavier-code
+   Copyright (c) 2026 Black Cat (Francis-Xavier-code)
    License: MIT
 
    The input-toolbar entry layout (toolbar badge button + overlay
