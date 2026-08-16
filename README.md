@@ -1,8 +1,8 @@
 # 💰 dsh-deepseek-quota-plus
 
-DeepSeek API 额度插件(DSH Web 版):余额、今日消费、当前会话费用,一体化 UI。
+[简体中文](README.zh-CN.md) · **English**
 
-A DeepSeek Harness (DSH) web GUI plugin showing your DeepSeek API **balance**, **today's consumption** and the **current conversation cost**, with a UI integrated into the input toolbar (official theme tokens, light/dark aware).
+DeepSeek API quota widget for the **DeepSeek Harness (DSH) web GUI**: balance, today's consumption, and per-conversation cost — with a UI integrated into the input toolbar (official theme tokens, light/dark aware).
 
 | Balance | Today's consumption | Conversation cost | Links |
 | --- | --- | --- | --- |
@@ -10,18 +10,18 @@ A DeepSeek Harness (DSH) web GUI plugin showing your DeepSeek API **balance**, *
 
 ## ✨ Features
 
-- **输入工具行入口**:余额徽标按钮(悬停才显示背景,低调不抢眼),与模型选择同排。
-- **常驻读条**:输入框下方一行 `今日 ≈¥x.xx · 本会话 ¥x.xxx`。
-- **完整面板**:总余额/充值余额/赠送余额、可用状态、今日消费(标注 `官方`/`估算` 来源)、本会话费用、刷新时间。
-- **一键跳转**:💰 充值 → `platform.deepseek.com/top_up`、📊 用量 → `/usage`、🧾 发票 → `/billing`。
-- **官方精确消费**:在面板粘贴平台 `userToken`(经 credentials 服务持久化为 `DEEPSEEK_PLATFORM_TOKEN`),今日消费即走平台 dashboard 接口,显示"官方"。
-- **会话费用公式**:悬停查看 `输入/缓存命中/输出 tokens × 单价 = 小计`(按消息时刻官方价格表计价,含峰谷)。
-- **零配置**:自动读取 DSH 的 `DEEPSEEK_API_KEY` 凭证(与模型提供商共用)。
-- **跟随主题**:全部使用 `--dsw-alias-*` 官方 token,明暗自适应。
+- **Input-toolbar entry**: a subtle balance badge button beside the model selector — transparent by default, background appears on hover, blends into the native toolbar.
+- **Persistent readout**: a one-line readout below the composer: `今日 ≈¥x.xx · 本会话 ¥x.xxx` (today's consumption · this conversation's cost).
+- **Full panel**: total / topped-up / granted balance, availability, today's consumption (labeled `官方` official / `估算` estimate), conversation cost, refresh time.
+- **One-click links**: 💰 top-up → `platform.deepseek.com/top_up`, 📊 usage → `/usage`, 🧾 invoice → `/billing`.
+- **Official precise consumption**: paste your platform `userToken` into the panel (persisted via the credentials service as `DEEPSEEK_PLATFORM_TOKEN`) to switch today's consumption to the official dashboard source.
+- **Cost formula tooltip**: hover to see `输入/缓存命中/输出 tokens × unit price = subtotal` (priced with the official price table at message time, including peak/off-peak).
+- **Zero configuration**: reads the DSH `DEEPSEEK_API_KEY` credential automatically (shared with the model provider).
+- **Theme aware**: uses only official `--dsw-alias-*` tokens; follows light/dark mode.
 
 ## 🖼 Screenshots
 
-![DeepSeek 额度面板](docs/demo.jpeg)
+![DeepSeek quota panel](docs/demo.jpeg)
 
 ## 📥 Install
 
