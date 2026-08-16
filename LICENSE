@@ -1,10 +1,13 @@
 MIT License
 
-Copyright (c) 2025 dsh-deepseek-quota-plus contributors
+Copyright (c) 2025 RicalLiu
 
 This project is a rework of dsh-deepseek-quota
-(https://github.com/yingjunnan/dsh-deepseek-quota), MIT licensed.
-The pricing engine is ported from bpc-oss/dsh-web-billing (MIT).
+(https://github.com/yingjunnan/dsh-deepseek-quota),
+Copyright (c) yingjunnan, MIT licensed.
+The pricing engine is ported from dsh-web-billing
+(https://github.com/bpc-oss/dsh-web-billing),
+Copyright (c) bpc-oss, MIT licensed.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

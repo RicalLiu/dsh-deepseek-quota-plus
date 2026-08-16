@@ -1,13 +1,16 @@
 dsh-deepseek-quota-plus
-Copyright (c) 2025 dsh-deepseek-quota-plus contributors
+Copyright (c) 2025 RicalLiu
 
 This product includes software developed by third parties, licensed under
 the MIT License. The MIT License text is included in the LICENSE file.
 
+Derivative works and forks of this project are copyrighted by their
+respective authors, as permitted by the MIT License.
+
 --------------------------------------------------------------------
 1. dsh-deepseek-quota
    https://github.com/yingjunnan/dsh-deepseek-quota
-   Copyright (c) dsh-deepseek-quota contributors
+   Copyright (c) yingjunnan
    License: MIT
 
    The host-half balance widget, session-cost replay logic and
