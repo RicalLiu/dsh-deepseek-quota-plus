@@ -1,0 +1,7 @@
+# dsh-deepseek-quota-plus — 插件补丁层。
+# Host 半区注册 /api/deepseek-balance、/api/deepseek-session-cost、
+# /api/deepseek-set-platform-token 三条路由;包同时声明 dsh.client web bundle,
+# 在输入工具行、composer dock 与 shell.overlay 渲染额度 UI。
+- insert:
+    - id: deepseek-quota-plus
+      name: dsh-deepseek-quota-plus

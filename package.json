@@ -1,0 +1,41 @@
+{
+  "name": "dsh-deepseek-quota-plus",
+  "version": "1.0.0",
+  "description": "DeepSeek API quota widget for the dsh web GUI: balance, today's consumption, and per-conversation cost — integrated into the input toolbar with official theme tokens.",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "docs"
+  ],
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "slots"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek",
+    "deepseek-harness",
+    "plugin",
+    "quota",
+    "balance",
+    "usage",
+    "web"
+  ],
+  "license": "MIT"
+}
