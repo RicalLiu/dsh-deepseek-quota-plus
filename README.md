@@ -19,12 +19,16 @@ A DeepSeek Harness (DSH) web GUI plugin showing your DeepSeek API **balance**, *
 - **零配置**:自动读取 DSH 的 `DEEPSEEK_API_KEY` 凭证(与模型提供商共用)。
 - **跟随主题**:全部使用 `--dsw-alias-*` 官方 token,明暗自适应。
 
+## 🖼 Screenshots
+
+![DeepSeek 额度面板](docs/demo.jpeg)
+
 ## 📥 Install
 
 Requires the DSH CLI and [pnpm](https://pnpm.io/installation).
 
 ```sh
-dsh plugin --profile web add github:<your-name>/dsh-deepseek-quota-plus
+dsh plugin --profile web add github:RicalLiu/dsh-deepseek-quota-plus
 ```
 
 Restart the web app (`dsh web`), then open http://127.0.0.1:3080 and refresh.
