@@ -1,0 +1,16 @@
+# dsh-deepseek-quota-plus authors
+
+This project is maintained by:
+
+- RicalLiu <rical-liu@foxmail.com> (https://github.com/RicalLiu)
+
+## Acknowledgements
+
+The following upstream works are reused in this project (see NOTICE for
+full attribution):
+
+- dsh-deepseek-quota — https://github.com/yingjunnan/dsh-deepseek-quota
+- dsh-web-billing — https://github.com/bpc-oss/dsh-web-billing
+- dsh-balance-plugin — https://github.com/Francis-Xavier-code/dsh-balance-plugin (UI layout inspiration)
+
+If you contribute to this project, please add yourself to this file.

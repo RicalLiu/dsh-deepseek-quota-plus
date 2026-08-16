@@ -2,6 +2,7 @@
   "name": "dsh-deepseek-quota-plus",
   "version": "1.0.0",
   "description": "DeepSeek API quota widget for the dsh web GUI: balance, today's consumption, and per-conversation cost — integrated into the input toolbar with official theme tokens.",
+  "author": "RicalLiu <rical-liu@foxmail.com> (https://github.com/RicalLiu)",
   "type": "module",
   "main": "lib/index.js",
   "files": [
@@ -9,6 +10,8 @@
     "cordis.patch.yml",
     "README.md",
     "LICENSE",
+    "AUTHORS",
+    "NOTICE",
     "docs"
   ],
   "exports": {

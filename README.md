@@ -78,6 +78,8 @@ Without the token, today's consumption falls back to a balance-delta estimate (s
 - [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) (MIT) — official pricing engine.
 - [dsh-balance-plugin](https://github.com/Francis-Xavier-code/dsh-balance-plugin) — input-toolbar entry layout inspiration.
 
+Full third-party attribution is documented in [NOTICE](NOTICE); project contributors are listed in [AUTHORS](AUTHORS).
+
 ## 📄 License
 
 MIT
